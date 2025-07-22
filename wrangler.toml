@@ -1,0 +1,12 @@
+  main = ".open-next/worker.js"
+  name = "app-oleumextra-staging"
+  compatibility_date = "2025-03-25"
+  compatibility_flags = ["nodejs_compat"]
+  [assets]
+  directory = ".open-next/assets"
+  binding = "ASSETS"
+
+# ---------- entorno dev ----------
+[env.staging]
+vars = { ENVIRONMENT = "staging" }
+workers_dev = true
