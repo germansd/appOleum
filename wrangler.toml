@@ -9,4 +9,4 @@
 # ---------- entorno dev ----------
 [env.staging]
 vars = { ENVIRONMENT = "staging" }
-workers_dev = true
+workers_dev = true 
