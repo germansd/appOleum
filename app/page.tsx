@@ -208,7 +208,7 @@ export default function Dashboard() {
               <form className="space-y-4">
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <Label htmlFor="cliente">Cliente</Label>
+                    <Label htmlFor="cliente">Cliente </Label>
                     <Select>
                       <SelectTrigger>
                         <SelectValue placeholder="Seleccionar cliente" />
