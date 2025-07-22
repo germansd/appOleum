@@ -8,5 +8,6 @@
 
 # ---------- entorno dev ----------
 [env.staging]
+name = "app-oleumextra-staging"
 vars = { ENVIRONMENT = "staging" }
 workers_dev = true 
