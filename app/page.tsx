@@ -198,7 +198,7 @@ export default function Dashboard() {
             <DialogTrigger asChild>
               <Button className="bg-[#708238] hover:bg-[#5a6b2d]">
                 <Plus className="w-4 h-4 mr-2" />
-                Nueva Entrada Maquila
+                Nueva Entrada Maquila 
               </Button>
             </DialogTrigger>
             <DialogContent className="max-w-2xl">
